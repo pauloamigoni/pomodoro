@@ -4,8 +4,8 @@ import { s, c } from 'theme'
 export const Header = styled.header`
   border-bottom: 0.15rem solid ${s.light400};
   width: 100%;
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
   font-weight: 600;
   font-size: ${s.textTitle3};
   color: ${s.blue600};
@@ -23,7 +23,7 @@ export const Main = styled.main`
   }
 
   h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   p {
@@ -47,8 +47,8 @@ export const InactiveBox = styled(c.Box)`
 
   strong {
     font-size: ${s.textTitle2};
-    font-weight: 500;
-    margin-bottom: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
   }
 
   svg {
@@ -58,5 +58,8 @@ export const InactiveBox = styled(c.Box)`
   p {
     margin: 0 3rem;
     font-size: ${s.textSubtitle1};
+  }
+  img {
+    margin: 1rem auto 1rem auto;
   }
 `
